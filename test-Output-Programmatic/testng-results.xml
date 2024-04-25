@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-28T12:49:50 IST" name="Excel Based Suite" finished-at="2023-08-28T12:50:16 IST" duration-ms="25635">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestCases.loginTest()[pri:0, instance:testCases.TestCases@1f12e153]" name="loginTest" class="testCases.TestCases"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestCases.testFilpkart()[pri:0, instance:testCases.TestCases@1f12e153]" name="testFilpkart" class="testCases.TestCases"/>
+      </group> <!-- Regression -->
+      <group name="Login with incorrect passoword">
+        <method signature="TestCases.loginTest()[pri:0, instance:testCases.TestCases@1f12e153]" name="loginTest" class="testCases.TestCases"/>
+      </group> <!-- Login with incorrect passoword -->
+      <group name="Smoke">
+        <method signature="TestCases.loginTest()[pri:0, instance:testCases.TestCases@1f12e153]" name="loginTest" class="testCases.TestCases"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-08-28T12:49:50 IST" name="Excel Based Regression Testing" finished-at="2023-08-28T12:50:16 IST" duration-ms="25635">
+      <class name="testCases.TestCases">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.TestCases@1f12e153]" started-at="2023-08-28T12:49:50 IST" name="start" finished-at="2023-08-28T12:49:50 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@1f12e153]" started-at="2023-08-28T12:49:50 IST" name="setUp" finished-at="2023-08-28T12:49:57 IST" duration-ms="6591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:testCases.TestCases@1f12e153]" started-at="2023-08-28T12:49:57 IST" name="loginTest" finished-at="2023-08-28T12:50:04 IST" duration-ms="6950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@1f12e153]" started-at="2023-08-28T12:50:04 IST" name="TakeDown" finished-at="2023-08-28T12:50:04 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@1f12e153]" started-at="2023-08-28T12:50:04 IST" name="setUp" finished-at="2023-08-28T12:50:09 IST" duration-ms="4785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFilpkart()[pri:0, instance:testCases.TestCases@1f12e153]" started-at="2023-08-28T12:50:09 IST" name="testFilpkart" finished-at="2023-08-28T12:50:16 IST" duration-ms="6471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilpkart -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@1f12e153]" started-at="2023-08-28T12:50:16 IST" name="TakeDown" finished-at="2023-08-28T12:50:16 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:testCases.TestCases@1f12e153]" started-at="2023-08-28T12:50:16 IST" name="stop" finished-at="2023-08-28T12:50:16 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- testCases.TestCases -->
+    </test> <!-- Excel Based Regression Testing -->
+  </suite> <!-- Excel Based Suite -->
+</testng-results>

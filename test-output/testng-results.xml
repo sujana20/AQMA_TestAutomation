@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-15T13:38:04 IST" name="Suite" finished-at="2024-03-15T13:50:11 IST" duration-ms="727656">
+    <groups>
+    </groups>
+    <test started-at="2024-03-15T13:38:04 IST" name="Test" finished-at="2024-03-15T13:50:11 IST" duration-ms="727656">
+      <class name="testCases.TestCases">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:38:04 IST" name="start" finished-at="2024-03-15T13:38:04 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:38:04 IST" name="setUp" finished-at="2024-03-15T13:38:20 IST" duration-ms="16271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AQMloginAccessTest()[pri:1, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:38:20 IST" name="AQMloginAccessTest" finished-at="2024-03-15T13:38:29 IST" duration-ms="9066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AQMloginAccessTest -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:38:29 IST" name="TakeDown" finished-at="2024-03-15T13:38:29 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:38:29 IST" name="setUp" finished-at="2024-03-15T13:38:47 IST" duration-ms="17345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sideBarDashboard()[pri:2, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:38:47 IST" name="sideBarDashboard" finished-at="2024-03-15T13:39:13 IST" duration-ms="26096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sideBarDashboard -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:39:13 IST" name="TakeDown" finished-at="2024-03-15T13:39:13 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:39:13 IST" name="setUp" finished-at="2024-03-15T13:39:34 IST" duration-ms="20585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="configuration()[pri:3, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:39:34 IST" name="configuration" finished-at="2024-03-15T13:40:18 IST" duration-ms="44802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:40:18 IST" name="TakeDown" finished-at="2024-03-15T13:40:19 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:40:19 IST" name="setUp" finished-at="2024-03-15T13:40:38 IST" duration-ms="19534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Config_Device()[pri:4, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:40:38 IST" name="Config_Device" finished-at="2024-03-15T13:41:05 IST" duration-ms="26835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config_Device -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:41:05 IST" name="TakeDown" finished-at="2024-03-15T13:41:05 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:41:05 IST" name="setUp" finished-at="2024-03-15T13:41:12 IST" duration-ms="7115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="configuration_parameter()[pri:5, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:41:12 IST" name="configuration_parameter" finished-at="2024-03-15T13:41:32 IST" duration-ms="19608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration_parameter -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:41:32 IST" name="TakeDown" finished-at="2024-03-15T13:41:32 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:41:32 IST" name="setUp" finished-at="2024-03-15T13:41:38 IST" duration-ms="6250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="configuration_Grouping()[pri:6, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:41:38 IST" name="configuration_Grouping" finished-at="2024-03-15T13:41:53 IST" duration-ms="14205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration_Grouping -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:41:53 IST" name="TakeDown" finished-at="2024-03-15T13:41:53 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:41:53 IST" name="setUp" finished-at="2024-03-15T13:42:03 IST" duration-ms="10402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="configuration_Grouping_AddGroup()[pri:7, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:42:03 IST" name="configuration_Grouping_AddGroup" finished-at="2024-03-15T13:42:17 IST" duration-ms="13400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration_Grouping_AddGroup -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:42:17 IST" name="TakeDown" finished-at="2024-03-15T13:42:17 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:42:17 IST" name="setUp" finished-at="2024-03-15T13:42:25 IST" duration-ms="8506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="admin_Users()[pri:8, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:42:25 IST" name="admin_Users" finished-at="2024-03-15T13:42:35 IST" duration-ms="9507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admin_Users -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:42:35 IST" name="TakeDown" finished-at="2024-03-15T13:42:35 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:42:35 IST" name="setUp" finished-at="2024-03-15T13:42:51 IST" duration-ms="15652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="admin_addusers()[pri:9, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:42:51 IST" name="admin_addusers" finished-at="2024-03-15T13:43:01 IST" duration-ms="9803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admin_addusers -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:43:01 IST" name="TakeDown" finished-at="2024-03-15T13:43:01 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:43:01 IST" name="setUp" finished-at="2024-03-15T13:43:14 IST" duration-ms="12673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="admin_usersLog()[pri:10, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:43:14 IST" name="admin_usersLog" finished-at="2024-03-15T13:43:33 IST" duration-ms="19483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admin_usersLog -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:43:33 IST" name="TakeDown" finished-at="2024-03-15T13:43:33 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:43:33 IST" name="setUp" finished-at="2024-03-15T13:43:45 IST" duration-ms="11790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="admin_ApplicationLog()[pri:11, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:43:45 IST" name="admin_ApplicationLog" finished-at="2024-03-15T13:44:01 IST" duration-ms="15853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admin_ApplicationLog -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:44:01 IST" name="TakeDown" finished-at="2024-03-15T13:44:01 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:44:01 IST" name="setUp" finished-at="2024-03-15T13:44:10 IST" duration-ms="9317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="admin_UserGroup()[pri:12, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:44:10 IST" name="admin_UserGroup" finished-at="2024-03-15T13:44:26 IST" duration-ms="15840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admin_UserGroup -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:44:26 IST" name="TakeDown" finished-at="2024-03-15T13:44:26 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:44:27 IST" name="setUp" finished-at="2024-03-15T13:44:36 IST" duration-ms="9086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="admin_createNewGroup()[pri:13, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:44:36 IST" name="admin_createNewGroup" finished-at="2024-03-15T13:44:48 IST" duration-ms="12030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admin_createNewGroup -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:44:48 IST" name="TakeDown" finished-at="2024-03-15T13:44:48 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:44:48 IST" name="setUp" finished-at="2024-03-15T13:44:58 IST" duration-ms="9833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Reports_PredefinedCharts()[pri:14, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:44:58 IST" name="Reports_PredefinedCharts" finished-at="2024-03-15T13:45:29 IST" duration-ms="31071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports_PredefinedCharts -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:45:29 IST" name="TakeDown" finished-at="2024-03-15T13:45:29 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:45:29 IST" name="setUp" finished-at="2024-03-15T13:45:39 IST" duration-ms="9615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Reports_DetailedAnalysisReports()[pri:15, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:45:39 IST" name="Reports_DetailedAnalysisReports" finished-at="2024-03-15T13:46:08 IST" duration-ms="29163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports_DetailedAnalysisReports -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:46:08 IST" name="TakeDown" finished-at="2024-03-15T13:46:08 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:46:08 IST" name="setUp" finished-at="2024-03-15T13:46:17 IST" duration-ms="8437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Reports_StatisticalReports()[pri:16, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:46:17 IST" name="Reports_StatisticalReports" finished-at="2024-03-15T13:46:47 IST" duration-ms="30700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports_StatisticalReports -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:46:47 IST" name="TakeDown" finished-at="2024-03-15T13:46:47 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:46:47 IST" name="setUp" finished-at="2024-03-15T13:47:01 IST" duration-ms="13527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Reports_ExceedenceReport()[pri:17, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:47:01 IST" name="Reports_ExceedenceReport" finished-at="2024-03-15T13:47:23 IST" duration-ms="22510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports_ExceedenceReport -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:47:23 IST" name="TakeDown" finished-at="2024-03-15T13:47:24 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:47:24 IST" name="setUp" finished-at="2024-03-15T13:47:36 IST" duration-ms="12589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Reports_WindRose()[pri:17, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:47:36 IST" name="Reports_WindRose" finished-at="2024-03-15T13:48:00 IST" duration-ms="23338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports_WindRose -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:48:00 IST" name="TakeDown" finished-at="2024-03-15T13:48:00 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:48:00 IST" name="setUp" finished-at="2024-03-15T13:48:09 IST" duration-ms="9452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Reports_DataValidation()[pri:18, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:48:09 IST" name="Reports_DataValidation" finished-at="2024-03-15T13:48:39 IST" duration-ms="29867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports_DataValidation -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:48:39 IST" name="TakeDown" finished-at="2024-03-15T13:48:39 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:48:39 IST" name="setUp" finished-at="2024-03-15T13:48:48 IST" duration-ms="8152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Reports_LiveData()[pri:18, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:48:48 IST" name="Reports_LiveData" finished-at="2024-03-15T13:49:43 IST" duration-ms="55013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports_LiveData -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:49:43 IST" name="TakeDown" finished-at="2024-03-15T13:49:43 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:49:43 IST" name="setUp" finished-at="2024-03-15T13:49:57 IST" duration-ms="13693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Reports_DataBrowsing()[pri:19, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:49:57 IST" name="Reports_DataBrowsing" finished-at="2024-03-15T13:50:11 IST" duration-ms="14398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports_DataBrowsing -->
+        <test-method is-config="true" signature="TakeDown()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:50:11 IST" name="TakeDown" finished-at="2024-03-15T13:50:11 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TakeDown -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:testCases.TestCases@13d9b21f]" started-at="2024-03-15T13:50:11 IST" name="stop" finished-at="2024-03-15T13:50:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- testCases.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Excel Based Suite]">
+  <test thread-count="5" name="Excel Based Regression Testing(failed)">
+    <groups>
+      <run>
+        <include name="Login"/>
+        <include name="Login with incorrect passoword"/>
+        <include name="Homepage"/>
+        <include name="Logo"/>
+        <include name="Header"/>
+        <include name="Contact Us page"/>
+        <include name="Smoke"/>
+        <include name="Smoke"/>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TestCases">
+        <methods>
+          <include name="fileUpload"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="start"/>
+          <include name="TakeDown"/>
+          <include name="stop"/>
+          <include name="testFilpkart"/>
+        </methods>
+      </class> <!-- testCases.TestCases -->
+    </classes>
+  </test> <!-- Excel Based Regression Testing(failed) -->
+</suite> <!-- Failed suite [Excel Based Suite] -->
