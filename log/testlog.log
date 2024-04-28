@@ -3703,3 +3703,23 @@
 2024-04-25 14:10:14,300 - Frame1 -INFO - Header 6 validated successfully: Last Data
 2024-04-25 14:10:14,315 - Frame1 -INFO - Header 7 validated successfully: Next Polling
 2024-04-25 14:10:14,329 - Frame1 -INFO - Header 8 validated successfully: Communication Status
+2024-04-28 13:05:00,773 - Frame1 -INFO - Logger Started
+2024-04-28 13:05:08,403 - Frame1 -INFO - Chrome launched
+2024-04-28 13:05:10,552 - Frame1 -INFO - url Loaded
+2024-04-28 13:05:10,808 - Frame1 -INFO - maximized Browser window and added waits
+2024-04-28 13:05:15,309 - Frame1 -INFO - Logged in Successfully
+2024-04-28 13:05:15,530 - Frame1 -INFO - Screenshot Taken
+2024-04-28 13:05:16,131 - Frame1 -INFO - Browser Closed
+2024-04-28 13:05:19,824 - Frame1 -INFO - Chrome launched
+2024-04-28 13:05:21,885 - Frame1 -INFO - url Loaded
+2024-04-28 13:05:22,079 - Frame1 -INFO - maximized Browser window and added waits
+2024-04-28 13:05:42,081 - Frame1 -INFO - Logger Started
+2024-04-28 13:05:48,089 - Frame1 -INFO - Chrome launched
+2024-04-28 13:05:50,192 - Frame1 -INFO - url Loaded
+2024-04-28 13:05:50,454 - Frame1 -INFO - maximized Browser window and added waits
+2024-04-28 13:05:54,640 - Frame1 -INFO - Logged in Successfully
+2024-04-28 13:05:54,886 - Frame1 -INFO - Screenshot Taken
+2024-04-28 13:05:55,394 - Frame1 -INFO - Browser Closed
+2024-04-28 13:05:58,557 - Frame1 -INFO - Chrome launched
+2024-04-28 13:06:00,501 - Frame1 -INFO - url Loaded
+2024-04-28 13:06:00,675 - Frame1 -INFO - maximized Browser window and added waits
