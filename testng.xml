@@ -6,7 +6,6 @@
       <class name="testCases.TestCases"/>
       <class name="testBase.TestBase"/>
       <class name="utility.ExcelLoop"/>
-      <class name="testCases.NewTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
