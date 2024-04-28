@@ -52,13 +52,18 @@ public class TestBase {
 	@BeforeMethod (alwaysRun = true) // BeforeClass, BeforeMethod, AfterMethod, AfterClass
 	public void setUp()
 		{
+
 		 String br = "chrome";        // Select Browser to run the Testcases     
 		 if(br.equalsIgnoreCase("chrome"))
 		{
 			 	
 			 ChromeOptions co = new ChromeOptions();
 			 co.addArguments("--remote-allow-origins=*"); // Sometimes the chrome was not working.
+
 			 WebDriverManager.chromedriver().clearDriverCache().setup();
+
+			 WebDriverManager.chromedriver().setup();
+
 			 driver = new ChromeDriver(co);
 			 logger.info("Chrome launched"); 
 		 }

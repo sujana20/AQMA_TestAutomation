@@ -1,0 +1,60 @@
+2024-02-26 20:04:33,604 [main] INFO Frame1 - Logger Started
+2024-02-26 20:04:53,240 [main] INFO Frame1 - Firefox launched
+2024-02-26 20:05:04,016 [main] INFO Frame1 - url Loaded
+2024-02-26 20:05:04,042 [main] INFO Frame1 - maximized Browser window and added waits
+2024-02-26 20:05:25,108 [main] INFO Frame1 - Browser Closed
+2024-02-26 20:05:28,520 [main] INFO Frame1 - Firefox launched
+2024-02-26 20:05:37,040 [main] INFO Frame1 - url Loaded
+2024-02-26 20:05:37,057 [main] INFO Frame1 - maximized Browser window and added waits
+2024-02-26 20:05:55,723 [main] INFO Frame1 - Logged in Successfully
+2024-02-26 20:05:58,819 [main] INFO Frame1 - 1st Menu option :Dashboard
+2024-02-26 20:06:02,859 [main] INFO Frame1 - Table name : Measurement Site Status
+2024-02-26 20:06:06,904 [main] INFO Frame1 - Header 1 validated successfully: Measurement Site
+2024-02-26 20:06:06,914 [main] INFO Frame1 - Header 2 validated successfully: Station Label
+2024-02-26 20:06:06,922 [main] INFO Frame1 - Header 3 validated successfully: Communication
+2024-02-26 20:06:06,932 [main] INFO Frame1 - Header 4 validated successfully: Alarms
+2024-02-26 20:06:06,941 [main] INFO Frame1 - Header 5 validated successfully: Failures
+2024-02-26 20:06:06,950 [main] INFO Frame1 - Header 6 validated successfully: Last Data
+2024-02-26 20:06:06,962 [main] INFO Frame1 - Header 7 validated successfully: Next Polling
+2024-02-26 20:06:06,974 [main] INFO Frame1 - Header 8 validated successfully: Communication Status
+2024-02-26 20:06:15,247 [main] INFO Frame1 - Is the column in ascending order? : true
+2024-02-26 20:06:15,297 [main] INFO Frame1 - Screenshot Taken
+2024-02-26 20:06:16,360 [main] INFO Frame1 - Browser Closed
+2024-02-26 20:06:19,791 [main] INFO Frame1 - Firefox launched
+2024-02-26 20:06:26,191 [main] INFO Frame1 - url Loaded
+2024-02-26 20:06:26,208 [main] INFO Frame1 - maximized Browser window and added waits
+2024-02-26 20:06:47,178 [main] INFO Frame1 - Browser Closed
+2024-02-26 20:06:50,238 [main] INFO Frame1 - Firefox launched
+2024-02-26 20:06:55,750 [main] INFO Frame1 - url Loaded
+2024-02-26 20:06:55,765 [main] INFO Frame1 - maximized Browser window and added waits
+2024-02-26 20:07:17,081 [main] INFO Frame1 - Browser Closed
+2024-02-26 20:07:20,559 [main] INFO Frame1 - Firefox launched
+2024-02-26 20:07:27,803 [main] INFO Frame1 - url Loaded
+2024-02-26 20:07:27,822 [main] INFO Frame1 - maximized Browser window and added waits
+2024-02-26 20:07:48,933 [main] INFO Frame1 - Browser Closed
+2024-02-26 20:07:51,938 [main] INFO Frame1 - Firefox launched
+2024-02-26 20:07:57,201 [main] INFO Frame1 - url Loaded
+2024-02-26 20:07:57,218 [main] INFO Frame1 - maximized Browser window and added waits
+2024-02-26 20:08:08,915 [main] INFO Frame1 - Logged in Successfully
+2024-02-26 20:08:08,957 [main] INFO Frame1 - Screenshot Taken
+2024-02-26 20:08:11,120 [main] INFO Frame1 - Screenshot Taken
+2024-02-26 20:08:17,970 [main] INFO Frame1 - Screenshot Taken
+2024-02-26 20:08:19,308 [main] INFO Frame1 - Screenshot Taken
+2024-02-26 20:08:20,277 [main] INFO Frame1 - Browser Closed
+2024-02-26 20:08:23,657 [main] INFO Frame1 - Firefox launched
+2024-02-26 20:08:27,188 [main] INFO Frame1 - url Loaded
+2024-02-26 20:08:27,209 [main] INFO Frame1 - maximized Browser window and added waits
+2024-02-26 20:08:48,272 [main] INFO Frame1 - Browser Closed
+2024-02-26 20:08:51,233 [main] INFO Frame1 - Firefox launched
+2024-02-26 20:09:08,698 [main] INFO Frame1 - url Loaded
+2024-02-26 20:09:08,716 [main] INFO Frame1 - maximized Browser window and added waits
+2024-02-26 20:09:31,108 [main] INFO Frame1 - Browser Closed
+2024-02-26 20:09:34,317 [main] INFO Frame1 - Firefox launched
+2024-02-26 20:09:46,366 [main] INFO Frame1 - url Loaded
+2024-02-26 20:09:46,390 [main] INFO Frame1 - maximized Browser window and added waits
+2024-02-26 20:10:07,695 [main] INFO Frame1 - Browser Closed
+2024-02-26 20:10:10,888 [main] INFO Frame1 - Firefox launched
+2024-02-26 20:10:23,147 [main] INFO Frame1 - url Loaded
+2024-02-26 20:10:23,164 [main] INFO Frame1 - maximized Browser window and added waits
+2024-02-26 20:10:44,169 [main] INFO Frame1 - Browser Closed
+2024-02-26 20:10:44,169 [main] INFO Frame1 - Automation Suite Executed Successfully

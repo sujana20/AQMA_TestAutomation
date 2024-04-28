@@ -1,0 +1,9 @@
+password- prathamesh.lad@TestAutomation
+
+--This is Maven framework includes - JavaSE-18, Selenium (4.3.0), TestNG(7.6.0), WebDriver Manager(5.2.1), Extent Reports(2.41.2), Log4j(1.2.17), Apache POI(poi, poi-ooxml)(5.2.2).
+
+
+	1. Before writing any test script make sure that module is not under development.(The module should have stable DOM structure)
+	2. Write high priority and positive test cases first, followed by medium and low and Negative.
+	3. Test cases to be written in "TestCases.java" file.
+	4. Xpaths to be written in "UIElement.java" file.

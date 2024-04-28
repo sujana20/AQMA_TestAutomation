@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>AQMS_TestAutomation_Backup27022024</name>
+=======
+	<name>AQMA_TestAutomation</name>
+>>>>>>> ab191c694848e9d6b093596ee17165cd5941b2e4
 	<comment></comment>
 	<projects>
 	</projects>

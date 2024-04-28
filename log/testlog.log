@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2024-02-26 20:18:21,225 - Frame1 -INFO - Logger Started
 2024-02-26 20:18:26,635 - Frame1 -INFO - Firefox launched
 2024-02-26 20:18:40,921 - Frame1 -INFO - url Loaded
@@ -3723,3 +3724,141 @@
 2024-04-28 13:05:58,557 - Frame1 -INFO - Chrome launched
 2024-04-28 13:06:00,501 - Frame1 -INFO - url Loaded
 2024-04-28 13:06:00,675 - Frame1 -INFO - maximized Browser window and added waits
+=======
+2024-02-26 20:18:21,225 - Frame1 -INFO - Logger Started
+2024-02-26 20:18:26,635 - Frame1 -INFO - Firefox launched
+2024-02-26 20:18:40,921 - Frame1 -INFO - url Loaded
+2024-02-26 20:18:40,951 - Frame1 -INFO - maximized Browser window and added waits
+2024-02-26 20:18:40,992 - Frame1 -INFO - TestCase Execution started_(AQMloginAccessTest)
+2024-02-26 20:19:21,021 - Frame1 -ERROR - TestCase Execution Failed_(AQMloginAccessTest)
+2024-02-26 20:19:21,071 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:19:22,016 - Frame1 -INFO - Browser Closed
+2024-02-26 20:19:26,191 - Frame1 -INFO - Firefox launched
+2024-02-26 20:19:36,729 - Frame1 -INFO - url Loaded
+2024-02-26 20:19:36,749 - Frame1 -INFO - maximized Browser window and added waits
+2024-02-26 20:19:36,753 - Frame1 -INFO - TestCase Execution started_(sideBarDashboard)
+2024-02-26 20:20:13,921 - Frame1 -INFO - Logged in Successfully
+2024-02-26 20:20:15,394 - Frame1 -INFO - 1st Menu option :Dashboard
+2024-02-26 20:20:19,435 - Frame1 -INFO - Table name : Measurement Site Status
+2024-02-26 20:20:23,605 - Frame1 -INFO - Header 1 validated successfully: Measurement Site
+2024-02-26 20:20:23,653 - Frame1 -INFO - Header 2 validated successfully: Station Label
+2024-02-26 20:20:23,693 - Frame1 -INFO - Header 3 validated successfully: Communication
+2024-02-26 20:20:23,737 - Frame1 -INFO - Header 4 validated successfully: Alarms
+2024-02-26 20:20:23,785 - Frame1 -INFO - Header 5 validated successfully: Failures
+2024-02-26 20:20:23,840 - Frame1 -INFO - Header 6 validated successfully: Last Data
+2024-02-26 20:20:23,852 - Frame1 -INFO - Header 7 validated successfully: Next Polling
+2024-02-26 20:20:23,863 - Frame1 -INFO - Header 8 validated successfully: Communication Status
+2024-02-26 20:20:32,153 - Frame1 -INFO - Is the column in ascending order? : true
+2024-02-26 20:20:32,207 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:20:32,208 - Frame1 -INFO - TestCase Executed Successfully_(sideBarDashboard)
+2024-02-26 20:20:33,298 - Frame1 -INFO - Browser Closed
+2024-02-26 20:20:36,564 - Frame1 -INFO - Firefox launched
+2024-02-26 20:20:48,121 - Frame1 -INFO - url Loaded
+2024-02-26 20:20:48,139 - Frame1 -INFO - maximized Browser window and added waits
+2024-02-26 20:20:48,142 - Frame1 -INFO - TestCase Execution started_(configuration)
+2024-02-26 20:21:24,674 - Frame1 -INFO - Logged in Successfully
+2024-02-26 20:21:24,707 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:21:24,709 - Frame1 -INFO - ------------------------------------------------------------
+2024-02-26 20:21:26,476 - Frame1 -INFO - 2nd Menu option :Configuration
+2024-02-26 20:21:26,711 - Frame1 -INFO - Configuration Menu succesfully clicked 
+2024-02-26 20:21:30,727 - Frame1 -INFO - ------------------------------------------------------------
+2024-02-26 20:21:30,758 - Frame1 -INFO -  First Sub Menu under Configuration : Station
+2024-02-26 20:21:34,211 - Frame1 -INFO -  Table Name : Stations List
+2024-02-26 20:21:37,521 - Frame1 -ERROR - TestCase Execution Failed_(configuration)
+2024-02-26 20:21:37,564 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:21:38,679 - Frame1 -INFO - Browser Closed
+2024-02-26 20:21:42,130 - Frame1 -INFO - Firefox launched
+2024-02-26 20:21:47,256 - Frame1 -INFO - url Loaded
+2024-02-26 20:21:47,273 - Frame1 -INFO - maximized Browser window and added waits
+2024-02-26 20:21:47,275 - Frame1 -INFO - TestCase Execution started_(Config_Device)
+2024-02-26 20:22:03,260 - Frame1 -INFO - Logged in Successfully
+2024-02-26 20:22:03,292 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:22:03,324 - Frame1 -INFO - 2nd Menu option :Configuration
+2024-02-26 20:22:03,542 - Frame1 -INFO - Configuration Menu succesfully clicked 
+2024-02-26 20:22:07,552 - Frame1 -INFO - ------------------------------------------------------------
+2024-02-26 20:22:07,578 - Frame1 -INFO -  Second Sub Menu under Configuration : Device
+2024-02-26 20:22:07,841 - Frame1 -INFO -  Table Name : Devices List
+2024-02-26 20:22:08,084 - Frame1 -INFO - Header 1 validated successfully: Station Name
+2024-02-26 20:22:08,093 - Frame1 -INFO - Header 2 validated successfully: Device Name
+2024-02-26 20:22:08,103 - Frame1 -INFO - Header 3 validated successfully: Device Model
+2024-02-26 20:22:08,114 - Frame1 -INFO - Header 4 validated successfully: IP Address
+2024-02-26 20:22:08,122 - Frame1 -INFO - Header 5 validated successfully: Port
+2024-02-26 20:22:08,131 - Frame1 -INFO - Header 6 validated successfully: Type
+2024-02-26 20:22:08,142 - Frame1 -INFO - Header 7 validated successfully: 
+2024-02-26 20:22:08,394 - Frame1 -INFO -  Stations List Search icon Clickable
+2024-02-26 20:22:09,096 - Frame1 -INFO - Station Name Dropdown is working
+2024-02-26 20:22:09,967 - Frame1 -INFO - Device model Dropdown is working
+2024-02-26 20:22:13,664 - Frame1 -INFO - -----------------------------------------------------------
+2024-02-26 20:22:13,665 - Frame1 -INFO - TestCase Executed Successfully_(Config_Device)
+2024-02-26 20:22:14,656 - Frame1 -INFO - Browser Closed
+2024-02-26 20:22:17,722 - Frame1 -INFO - Firefox launched
+2024-02-26 20:22:19,675 - Frame1 -INFO - url Loaded
+2024-02-26 20:22:19,722 - Frame1 -INFO - maximized Browser window and added waits
+2024-02-26 20:22:19,725 - Frame1 -INFO - TestCase Execution started_(configuration_parameter)
+2024-02-26 20:22:52,964 - Frame1 -INFO - Logged in Successfully
+2024-02-26 20:22:52,997 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:22:54,155 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:23:05,105 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:23:05,421 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:23:05,421 - Frame1 -INFO - TestCase Executed Successfully_(configuration_parameter)
+2024-02-26 20:23:06,352 - Frame1 -INFO - Browser Closed
+2024-02-26 20:23:09,367 - Frame1 -INFO - Firefox launched
+2024-02-26 20:23:26,461 - Frame1 -INFO - url Loaded
+2024-02-26 20:23:26,480 - Frame1 -INFO - maximized Browser window and added waits
+2024-02-26 20:23:26,480 - Frame1 -INFO - TestCase Execution started_(configuration_Grouping)
+2024-02-26 20:23:59,955 - Frame1 -INFO - Logged in Successfully
+2024-02-26 20:23:59,980 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:24:06,851 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:24:13,729 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:24:15,103 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:24:15,103 - Frame1 -INFO - TestCase Executed Successfully_(configuration_Grouping)
+2024-02-26 20:24:16,105 - Frame1 -INFO - Browser Closed
+2024-02-26 20:24:19,269 - Frame1 -INFO - Firefox launched
+2024-02-26 20:24:35,681 - Frame1 -INFO - url Loaded
+2024-02-26 20:24:35,700 - Frame1 -INFO - maximized Browser window and added waits
+2024-02-26 20:24:35,700 - Frame1 -INFO - TestCase Execution started_(configuration_Grouping_AddGroup)
+2024-02-26 20:25:15,749 - Frame1 -ERROR - TestCase Execution Failed_(configuration_Grouping_AddGroup)
+2024-02-26 20:25:15,781 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:25:16,703 - Frame1 -INFO - Browser Closed
+2024-02-26 20:25:20,099 - Frame1 -INFO - Firefox launched
+2024-02-26 20:25:32,016 - Frame1 -INFO - url Loaded
+2024-02-26 20:25:32,034 - Frame1 -INFO - maximized Browser window and added waits
+2024-02-26 20:25:32,037 - Frame1 -INFO - TestCase Execution started_(admin_Users)
+2024-02-26 20:26:12,707 - Frame1 -INFO - Logged in Successfully
+2024-02-26 20:26:12,749 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:26:16,983 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:26:17,337 - Frame1 -INFO - Search Validated
+2024-02-26 20:26:17,406 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:26:17,879 - Frame1 -INFO - Filter Click Validated
+2024-02-26 20:26:18,056 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:26:18,057 - Frame1 -INFO - TestCase Executed Successfully_(admin_Users)
+2024-02-26 20:26:19,103 - Frame1 -INFO - Browser Closed
+2024-02-26 20:26:22,415 - Frame1 -INFO - Firefox launched
+2024-02-26 20:26:34,858 - Frame1 -INFO - url Loaded
+2024-02-26 20:26:34,894 - Frame1 -INFO - maximized Browser window and added waits
+2024-02-26 20:26:34,896 - Frame1 -INFO - TestCase Execution started_(admin_addusers)
+2024-02-26 20:26:56,242 - Frame1 -INFO - Logged in Successfully
+2024-02-26 20:26:56,279 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:26:59,266 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:27:00,065 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:27:00,066 - Frame1 -INFO - TestCase Executed Successfully_(admin_addusers)
+2024-02-26 20:27:01,406 - Frame1 -INFO - Browser Closed
+2024-02-26 20:27:05,946 - Frame1 -INFO - Firefox launched
+2024-02-26 20:27:10,178 - Frame1 -INFO - url Loaded
+2024-02-26 20:27:10,198 - Frame1 -INFO - maximized Browser window and added waits
+2024-02-26 20:27:10,199 - Frame1 -INFO - TestCase Execution started_(admin_usersLog)
+2024-02-26 20:27:25,305 - Frame1 -INFO - Logged in Successfully
+2024-02-26 20:27:25,335 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:27:32,392 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:27:37,139 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:27:37,414 - Frame1 -INFO - Screenshot Taken
+2024-02-26 20:27:37,415 - Frame1 -INFO - TestCase Executed Successfully_(admin_usersLog)
+2024-02-26 20:27:38,333 - Frame1 -INFO - Browser Closed
+2024-02-26 20:27:38,335 - Frame1 -INFO - Automation Suite Executed Successfully
+>>>>>>> ab191c694848e9d6b093596ee17165cd5941b2e4
+2024-04-28 13:59:33,802 - Frame1 -INFO - Logger Started
+2024-04-28 13:59:41,404 - Frame1 -INFO - Chrome launched
+2024-04-28 13:59:43,482 - Frame1 -INFO - url Loaded
+2024-04-28 13:59:43,640 - Frame1 -INFO - maximized Browser window and added waits
+2024-04-28 13:59:47,452 - Frame1 -INFO - Logged in Successfully
+2024-04-28 13:59:47,647 - Frame1 -INFO - Screenshot Taken
