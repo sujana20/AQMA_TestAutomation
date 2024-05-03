@@ -113,7 +113,7 @@
           <version>2.22.1</version>
           <configuration>
        <suiteXmlFiles>                   
-      <suiteXmlFile>.//testng.xml</suiteXmlFile>
+      <suiteXmlFile>C:\ProgramData\Jenkins\.jenkins\workspace\AQMS_TestAutomation\testng.xml</suiteXmlFile>
        </suiteXmlFiles>
       </configuration>
         </plugin>
