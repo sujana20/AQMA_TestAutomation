@@ -35,12 +35,13 @@ public class TestCases extends testBase.TestBase{
 		//2.Dashboard ---//
 		@Test 		(priority = 2)
 		public void sideBarDashboard() throws InterruptedException {
-				
+			logger.info("sideBarDashboard started Successfully");	
 			loginAs.qa("admin", "12345678");
 			logger.info("Logged in Successfully");
-			
+			logger.info("dashboard element validation started ");
 	        WebElement dashboardElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text()='Dashboard']")));
 	        // Retrieve the text from the element and print it
+		logger.info("dashboard element validation in-progess ");
 	        String dashboardText = dashboardElement.getText();
 	        logger.info("1st Menu option :" +dashboardText);
 	        Thread.sleep(4000);
