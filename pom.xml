@@ -1,140 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
+package testBase;
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+import java.time.Duration;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 
-  <groupId>MavenTemplatePr2h</groupId>
+import io.github.bonigarcia.wdm.WebDriverManager;
+import pageLayer.LoginPage;
+import pageLayer.UIElement;
+import utility.GetCurrentDateTime;
+import utility.LoginAs;
+import utility.TakeScreenshots;
+import utility.TestngRunner;
 
-  <artifactId>Vardhaman</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+public class TestBase {
 
-  <name>TemplatePr2h</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  public static WebDriver driver;
+  public static Logger logger;
+  public static LoginPage login;
+  public UIElement uielement;
+  public TakeScreenshots takeScreenshot;
+  public GetCurrentDateTime getCurrentDateTime;
+  public TestngRunner testngRunner;
+  public LoginAs loginAs;
+  public WebDriverWait wait;
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  @BeforeClass(alwaysRun = true)
+  public void start() { // This is to initialize logger. This method is executed first.
+    logger = Logger.getLogger("Frame1");
+    PropertyConfigurator.configure("Log4j.properties");
+    logger.info("Logger Started");
+  }
 
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+  @BeforeMethod(alwaysRun = true)
+  public void setUp() {
+    String br = "chrome"; // Select Browser to run the Testcases
+    if (br.equalsIgnoreCase("chrome")) {
+      ChromeOptions co = new ChromeOptions();
+      co.addArguments("--headless"); // Add headless argument
+      WebDriverManager.chromedriver().setup();
+      driver = new ChromeDriver(co);
+      logger.info("Chrome launched in headless mode");
+    } else if (br.equalsIgnoreCase("firefox")) {
+      WebDriverManager.firefoxdriver().setup();
+      driver = new FirefoxDriver();
+      logger.info("Firefox launched");
+    } else if (br.equalsIgnoreCase("edge")) {
+      WebDriverManager.edgedriver().setup();
+      driver = new EdgeDriver();
+      logger.info("Edge Browser launched");
+    } else {
+      logger.info("Incorrect Browser name");
+      System.out.println("Enter valid browser name");
+    }
 
-  </properties>
+    driver.get("https://www.google.com");
+    logger.info("url Loaded");
+    driver.manage().window().maximize(); // Not applicable in headless mode
+    driver.manage().deleteAllCookies();
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(13));
+    driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
+    logger.info("added waits"); // Don't mention window maximization
+    wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-  <dependencies>
-<!--  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java  -->
-<dependency>
-<groupId>org.seleniumhq.selenium</groupId>
-<artifactId>selenium-java</artifactId>
-<version>4.3.0</version>
-</dependency>
-<!--  https://mvnrepository.com/artifact/org.testng/testng  -->
-<dependency>
+    // Initialize all the classes in TestBase before using them in src/test.
+    login = new LoginPage();
+    uielement = new UIElement();
+    testngRunner = new TestngRunner();
+    takeScreenshot = new TakeScreenshots();
+    getCurrentDateTime = new GetCurrentDateTime();
+    loginAs = new LoginAs();
+  }
 
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.1.0</version>
-    <scope>compile</scope>
-</dependency>
-<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-<dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>5.7.0</version>
+  @AfterMethod(alwaysRun = true)
+  public void TakeDown() {
+    driver.quit();
+    logger.info("Browser Closed");
+  }
 
-</dependency>
-
-<!--  https://mvnrepository.com/artifact/com.relevantcodes/extentreports  -->
-<dependency>
-<groupId>com.relevantcodes</groupId>
-<artifactId>extentreports</artifactId>
-<version>2.41.2</version>
-</dependency>
-<!--  https://mvnrepository.com/artifact/log4j/log4j  -->
-<dependency>
-    <groupId>log4j</groupId>
-    <artifactId>log4j</artifactId>
-    <version>1.2.17</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
-<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-core</artifactId>
-    <version>2.17.2</version>
-</dependency>
-
-<!--  https://mvnrepository.com/artifact/org.apache.poi/poi  -->
-<dependency>
-<groupId>org.apache.poi</groupId>
-<artifactId>poi</artifactId>
-<version>5.2.2</version>
-</dependency>
-<!--  https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml  -->
-<dependency>
-<groupId>org.apache.poi</groupId>
-<artifactId>poi-ooxml</artifactId>
-<version>5.2.2</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/com.guicedee.services/sl4j -->
-<dependency>
-    <groupId>com.guicedee.services</groupId>
-    <artifactId>sl4j</artifactId>
-    <version>1.0.13.5</version>
-</dependency>
-
-</dependencies>
-
-  <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
-      <plugins>
-        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
-        <plugin>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>3.1.0</version>
-        </plugin>
-        <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
-        <plugin>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>3.0.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
-
-          <configuration>
-        <source>17</source>
-        <target>17</target>
-    	</configuration>
-
-        </plugin>
-        <plugin>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.22.1</version>
-        
-        </plugin>
-        <plugin>
-          <artifactId>maven-jar-plugin</artifactId>
-          <version>3.0.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-install-plugin</artifactId>
-          <version>2.5.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.8.2</version>
-        </plugin>
-        <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
-        <plugin>
-          <artifactId>maven-site-plugin</artifactId>
-          <version>3.7.1</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>3.0.0</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
-</project>
+  @AfterClass(alwaysRun = true)
+  public void stop() { // Final executed method
+    logger.info("Automation Suite Executed Successfully");
+  }
+}
